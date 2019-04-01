@@ -1,4 +1,4 @@
-# Apache-Auto-Maintenance
+# Apache-Auto-Maintenance Mode
 Auto Maintenance Mode for Apache 
 
 This requires you to create a blank file in your webserver root folder called maintenenace.enable
