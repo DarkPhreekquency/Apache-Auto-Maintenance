@@ -1,0 +1,11 @@
+
+RewriteEngine On
+RewriteCond %{REMOTE_ADDR} !^23\.121\.252\.15
+RewriteCond %{DOCUMENT_ROOT}/maintenance.html -f
+RewriteCond %{DOCUMENT_ROOT}/maintenance.enable -f
+RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+ErrorDocument 503 /maintenance.html
+RewriteRule ^.*$ /maintenance.html [R=503,L]
+<location maintenance.html="">
+Header Set Cache-Control "max-age=0, no-store"
+</location>
