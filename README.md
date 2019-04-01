@@ -1,5 +1,6 @@
 # Apache-Auto-Maintenance Mode
 Auto Maintenance Mode for Apache 
+This will redirect your website to a maintenance page based on a scheduled time set in cron. 
 
 This requires you to create a blank file in your webserver root folder called maintenenace.enable
 as well as a custom error page maintenance.html in the same directory
