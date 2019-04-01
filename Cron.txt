@@ -1,0 +1,6 @@
+### Enable maintenance mode
+0 23 * * * /home/admin/toggleMaintenance.sh >/dev/null 2>&1
+
+
+### Disable maintenance mode 
+0 7 * * * /home/admin/toggleMaintenance.sh >/dev/null 2>&1
