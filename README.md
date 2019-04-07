@@ -14,4 +14,4 @@ This file contains the script to toggle maintenance mode on or off
 
 vhost_setup.txt
 This must be added into the apache Vhost for your particular site or into the .htaccess file in the root directory
-
+Please replace xxx  for an IP address that you would like to allow past the maintenenace page. You can also add multiple lines with other IP addresses if needed. 
