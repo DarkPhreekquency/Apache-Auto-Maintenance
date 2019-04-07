@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteCond %{REMOTE_ADDR} !^23\.121\.252\.15
+RewriteCond %{REMOTE_ADDR} !^xxx\.xxx\.xxx\.xxx
 RewriteCond %{DOCUMENT_ROOT}/maintenance.html -f
 RewriteCond %{DOCUMENT_ROOT}/maintenance.enable -f
 RewriteCond %{SCRIPT_FILENAME} !maintenance.html
